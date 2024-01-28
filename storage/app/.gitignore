@@ -1,0 +1,73 @@
+*
+!public/
+!.gitignore
+
+
+# Laravel specific
+/vendor
+/tests
+/node_modules
+.env
+.env.*
+Homestead.yaml
+Homestead.json
+/public/storage
+/public/hot
+/storage/*.key
+/storage/logs/*.log
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/testing/*
+/storage/framework/views/*
+/storage/backups
+/storage/app/public/uploads
+
+# Composer
+/composer.phar
+
+# PHPUnit
+/phpunit.xml
+/phpunit.xml.dist
+
+# Laravel Mix
+/public/css/*
+/public/js/*
+/public/mix-manifest.json
+/public/hot
+
+# Laravel Telescope
+/storage/app/telescope
+/bootstrap/cache/telescope.php
+/telescope
+
+# Laravel Horizon
+/storage/app/horizon
+/config/horizon.php
+
+# Laravel Dusk
+/storage/logs/chromedriver.log
+/vendor/laravel/dusk/.phpunit.result.cache
+/tests/Browser/screenshots
+/tests/Browser/console
+
+# PHPStorm
+.idea
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# VSCode
+.vscode
+
+# SQLite database files
+*.sqlite
+*.sqlite3
+*.db
+
+# PHPUnit code coverage
+/phpunit-coverage/
+
+# Nginx
+*.log
+/logs/
